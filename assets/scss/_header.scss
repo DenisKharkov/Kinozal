@@ -1,0 +1,25 @@
+.heder-logo {
+	padding: 100px 20px;
+	text-align: center;
+	background-color: $dark-color;
+	background-image: url(..img/header-bg.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+
+	&_title {
+		display: block;
+		color: $accent-color;
+		font-size: 3.5rem;
+		font-family: $font-header;
+		text-shadow: 0 0 5px #000000, 0 0 20px #000000;
+		letter-spacing: 0.33em;
+	}
+
+	&_description {
+		display: block;
+		font-size: 1.15rem;
+		color: lighten($gray-color, 14%);
+		letter-spacing: 0.2em;
+	    text-shadow: 0 0 5px #000000, 0 0 20px #000000;
+	}
+}

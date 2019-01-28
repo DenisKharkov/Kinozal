@@ -1,0 +1,9 @@
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.navbar-left li {
+  margin: 5px 5px 5px 0; }
+
+.navbar-right li {
+  margin: 5px 0px 5px 5px; }
