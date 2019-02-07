@@ -1,9 +1,22 @@
-.heder-logo {
+$accent-color: #df8a13;
+$accent-light: #f0ad4e;
+$accent-dark: #8a5100;
+$base-color: #165690;
+$base-light: #5182ae;
+$base-dark: #053259;
+$dark-color: #222222;
+$gray-color: #dddddd;
+$font-main: "PT Sans", sans-serif;
+$font-header: "PT Serif", serif;
+
+
+
+.header-logo {
 	padding: 100px 20px;
 	text-align: center;
 	background-color: $dark-color;
 	background-image: url(..img/header-bg.jpg);
-	background-position: 50% 50%;
+	background-position: center center;
 	background-size: cover;
 
 	&_title {
@@ -13,11 +26,24 @@
 		font-family: $font-header;
 		text-shadow: 0 0 5px #000000, 0 0 20px #000000;
 		letter-spacing: 0.33em;
+
+		@media (min-width: 576px) {
+            letter-spacing: 0.33em;
+
+            font-size: 3.5rem;
+        }
+
+        @media (max-width: 576px) {
+            letter-spacing: 0.2em;
+
+            font-size: 2.5rem;
+        }
 	}
 
 	&_description {
 		display: block;
 		font-size: 1.15rem;
+		letter-spacing: 0.2em
 		color: lighten($gray-color, 14%);
 		letter-spacing: 0.2em;
 	    text-shadow: 0 0 5px #000000, 0 0 20px #000000;
