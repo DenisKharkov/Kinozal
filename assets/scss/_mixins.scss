@@ -13,3 +13,10 @@
 	line-height: 24px;
 	height: 50px;
 }
+
+@mixin block-header {
+    margin: 0;
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid $dark-color;
+}
