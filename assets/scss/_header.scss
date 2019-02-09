@@ -1,6 +1,7 @@
 .header-logo {
 	padding: 100px 20px;
 	text-align: center;
+	height: 50rem;
 	background-color: $dark-color;
 	background-image: url(../img/header-bg.jpg);
 	background-position: center center;
@@ -13,24 +14,14 @@
 		font-family: $font-header;
 		text-shadow: 0 0 5px #000000, 0 0 20px #000000;
 		letter-spacing: 0.33em;
-
-		@media (min-width: 576px) {
-            letter-spacing: 0.33em;
-            font-size: 3.5rem;
-        }
-
-        @media (max-width: 576px) {
-            letter-spacing: 0.2em;
-            font-size: 2.5rem;
-		}
 	}
 	
-		&_description {
-			display: block;
-			font-size: 1.15rem;
-			letter-spacing: 0.2em;
-			color: lighten($gray-color, 14%);
-			letter-spacing: 0.2em;
-			text-shadow: 0 0 5px #000000, 0 0 20px #000000;
-		}
+	&_description {
+		display: block;
+		font-size: 1.15rem;
+		letter-spacing: 0.2em;
+		color: lighten($gray-color, 14%);
+		letter-spacing: 0.2em;
+		text-shadow: 0 0 5px #000000, 0 0 20px #000000;
+	}
 }

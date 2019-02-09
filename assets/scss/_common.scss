@@ -20,3 +20,24 @@ h1 {
     margin: 40px 0;
 	font-family: $font-header;
 }
+
+h2 {
+    margin: 50px 0 40px 40px;
+    font-family: $font-header;
+}
+
+
+h3 {
+    @media (min-width: 576px) {
+        font-size: 1.5rem;
+    }
+
+    @media (max-width: 576px) {
+        font-size: 1.25rem;
+    }
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+}

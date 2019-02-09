@@ -6,6 +6,13 @@
 
 }
 
+@mixin text-shortener {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 @mixin multiple-text-shortener {
 	display: -webkit-box;
 	overflow: hidden;
