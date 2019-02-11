@@ -49,4 +49,19 @@
     img {
         width: 100%;
 	}
+	&-item {
+        &:hover {
+            .thumbnail {
+                background-color: $accent-light;
+			}
+		}
+	}
+	&__text {
+		text-align: justify;
+	}	
+}
+
+.new-films-item:hover .new-films-item__label,
+.top-week-item:hover .top-week-item__label {
+    color: lighten($gray-color, 14%);
 }
